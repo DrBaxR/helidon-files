@@ -1,20 +1,3 @@
-# app
+## Helidon Files
 
-Minimal Helidon MP project suitable to start from scratch.
-
-## Build and run
-
-
-With JDK17+
-```bash
-mvn package
-java -jar target/app.jar
-```
-
-## Exercise the application
-```
-curl -X GET http://localhost:8080/simple-greet
-{"message":"Hello World!"}
-```
-
-
+A minimal project containing a simple file server implemented using Helidon MP.
